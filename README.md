@@ -5,6 +5,17 @@
 
 
 
+# 🚀 Marketplace de Sobremesas
+
+Repositório criado com fins didáticos para melhorar meu aprendizado, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML,CSS e JavaScript.
+
+Este projeto serve como um portfólio prático dos conhecimentos adquiridos ao longo dos estudos, além de um laboratório para testar novas ideias e boas práticas de desenvolvimento Frontend.
+
+🔗 **Veja o projeto online**  
+[👉 Acesse a demonstração](https://biellzindev.github.io/Market-Deserts/)
+
+---
+
 ## ✨ Funcionalidades
 - Display Flex
 - Animações e interações com Css
@@ -17,11 +28,6 @@
 - map
 - closest
 - forEach
-- localStorage
-- addEventListener
-- import/export
-- scrollTo
-  
 
 ---
 
@@ -54,3 +60,4 @@ O repositório contém:
 Este projeto tem fins educacionais, mas sugestões de melhorias e novas ideias são sempre bem-vindas.
 
 ---
+
