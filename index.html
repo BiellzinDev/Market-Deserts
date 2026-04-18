@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./data.json">
+  <title>Product list with cart</title>
+
+</head>
+<body >
+  <main class="flex-items_center-content_center conteudo">
+    <section class="flex-items_center-content_center limiter box-principal">
+      <div class="flex-items_center-content_center limiter-box-principal">
+        <div class="title limiter" >
+          <h1>Desserts</h1>
+        </div>
+        <div class="flex-items_center-content_center limiter box-items">
+        </div>
+      </div>
+    </section>
+    <aside class="flex-items_center-content_center box-lateral limiter " >
+      <div class="flex-items_center-content_center limiter-box-lateral active">
+        <h2>Your Cart (<span class="qtd-cart"></span>)</h2>
+          <div class="to-do-list flex-items_center-content_center">
+            <ul class="listCart flex-items_center-content_center"></ul>
+          </div>
+      </div>
+      <div class="cart-empty flex-items_center-content_center box-lateral limiter ">
+        <div class="flex-items_center-content_center empty-info">
+            <picture><source media="(min-width:375px )" srcset="assets/images/illustration-empty-cart.svg"><img src="./assets/images/illustration-empty-cart.svg" alt=""></picture>
+              <p>Your added items will appear here</p>
+        </div>
+          </div>
+    </aside>
+    <div class="order-confirm flex-items_center-content_center limiter confirm overlay">
+      <div class="box-order-confirm flex-items_center-content_center">
+        <div class="flex-items_center-content_center limiter-box-lateral">
+        <div class="box-check-order flex-items_center-content_center">
+          <picture>
+            <source media="(min-width: 375px)" srcset="assets/images/icon-order-confirmed.svg">
+            <img src="./assets/images/icon-order-confirmed.svg" alt="">
+          </picture>
+          <h2 class="text-confirm"><strong>Order Confirmed</strong></h2>
+          <p>We hope you enjoy your food!</p>
+        </div>
+          <div class="confirm flex-items_center-content_center to-do-confirm">
+            <ul class=" box-confirm flex-items_center-content_center">
+            </ul>
+          
+          </div>
+          <button class="btn-confirm btn-NewOrder">Start New Order
+            </button>
+      </div>
+    </div>
+
+
+  </main>
+
+
+  <script type="module" src="./dados.js"></script>
+  <script type="module" src="./cart.js"></script>
+  <script type="module" src="./confirm.js"></script>
+</body>
+</html>
